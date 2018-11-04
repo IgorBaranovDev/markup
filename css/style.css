@@ -167,7 +167,7 @@ a.login, a.register {
   font-family: "Lato",serif;
   color: #2a2a2a;
 }
-input[type=text], input[type=password], input[type=email] {
+input[type=password], input[type=email], .input-login {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -252,7 +252,7 @@ main {
   border-bottom: 1px solid rgb(217, 217, 217);
   border-left: 1px solid rgb(217, 217, 217);  
 } 
-.input-name-domain:focus {
+.input-name-domain:focus  {
   background-color: rgb(223, 223, 223);    
 }
 .wrap-name-domain {
@@ -260,7 +260,7 @@ main {
   max-width: 731px;
   width: 100%;
 }
-.input-name-domain {
+.input-name-domain  {
   position: relative;
   max-width: 731px;
   width: 100%;
